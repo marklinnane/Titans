@@ -1,0 +1,8 @@
+#N canvas 432 365 450 300 10;
+#X obj 164 158 dac~;
+#X obj 156 95 readsf~;
+#X msg 95 -65 open Faungirl_Beginning.wav;
+#X msg 137 -23 start;
+#X connect 1 0 0 0;
+#X connect 2 0 1 0;
+#X connect 3 0 1 0;
